@@ -12,6 +12,8 @@ license: apache-2.0
 
 # Transcript to JSON Converter
 
+![Transcript to JSON Conversion](labelstudio-readme-graphic.jpg)
+
 ### What is it?
 
 This app turns .srt (Subrip Text) format transcript files into JSON. [SRT](https://en.wikipedia.org/wiki/SubRip) is one of the formats supported by the [Whisper API](https://github.com/openai/whisper), which is OpenAI's open-source Speech to Text library.
