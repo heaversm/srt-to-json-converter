@@ -25,7 +25,7 @@ def process_srt(file_path, podcast_name, podcast_episode):
 
     for entry in entries:
         lines = entry.split('\n')
-        id = int(lines[0])
+        id = int(float(lines[0].replace('\ufeff', '').strip()))
         timestamp = lines[1]
         timestamp_start, timestamp_end = timestamp.split(" --> ")
         transcript = ' '.join(lines[2:])
